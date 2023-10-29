@@ -14,7 +14,7 @@ const Landing = () => (
       </Col>
 
       <Col xs={4}>
-        <FileEarmarkFill size={100} />
+        <FileEarmarkTextFill size={100} />
         <h1>Contact Details</h1>
         <h5>For each contact, you can save their name, address, and phone number.</h5>
       </Col>
