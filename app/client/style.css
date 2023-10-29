@@ -23,7 +23,6 @@ body {
   color: var(--matr-navbar-bg);
 }
 
-
 body .navbar {
   --bs-navbar-active-color: var(--matr-navbar-highlight-text);
   --bs-navbar-brand-color: var(--matr-navbar-text-color);
@@ -32,12 +31,9 @@ body .navbar {
   --bs-navbar-hover-color: var(--matr-navbar-highlight-text);
 }
 
-
 footer, footer a {
   color: var(--matr-navbar-text-color);
 }
-
-
 
 /* Set the alert background on the signin and signup pages. */
 #signin-page .alert-light, #signup-page .alert-light {

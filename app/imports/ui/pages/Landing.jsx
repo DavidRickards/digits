@@ -1,6 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import { Calendar2CheckFill, FileEarmarkFill, PeopleFill } from 'react-bootstrap-icons';
+import { Calendar2CheckFill, FileEarmarkTextFill, PeopleFill } from 'react-bootstrap-icons';
+
 
 /* A simple static component to render some text for the landing page. */
 const Landing = () => (
@@ -10,7 +11,6 @@ const Landing = () => (
         <PeopleFill size={100} />
         <h1>Multiple Users</h1>
         <h5>This address book enables any number of users to register and save their business contacts. You can only see the contacts you have created.</h5>
-
       </Col>
 
       <Col xs={4}>
