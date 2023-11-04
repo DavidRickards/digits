@@ -172,7 +172,7 @@ Once you log in (either to an existing account or by creating a new one), the na
 
 ![](https://github.com/ics-software-engineering/meteor-application-template-react/raw/main/doc/landing-after-login-page.png)
 
-You can now add new Stuff documents, and list the Stuff you have created. Note you cannot see any Stuff created by other users.
+You can now add new Stuff documents, and list the Stuff you have created. Notes you cannot see any Stuff created by other users.
 
 #### Add Stuff page
 
@@ -206,7 +206,7 @@ To provide a simple example of a "super power" for Admin users, the Admin page l
 
 ![](https://github.com/ics-software-engineering/meteor-application-template-react/raw/main/doc/admin-list-stuff-page.png)
 
-Note that non-admin users cannot get to this page, even if they type in the URL by hand.
+Notes that non-admin users cannot get to this page, even if they type in the URL by hand.
 
 ### Collections
 
@@ -281,7 +281,7 @@ It's significantly easier to do development with ESLint integrated directly into
 
 ## Screencasts
 
-For more information about this system, please watch one or more of the following screencasts. Note that the current source code might differ slightly from the code in these screencasts, but the changes should be very minor.
+For more information about this system, please watch one or more of the following screencasts. Notes that the current source code might differ slightly from the code in these screencasts, but the changes should be very minor.
 
   * [Walkthrough of system user interface (6 min)](https://youtu.be/48xu1hrqUi8)
   * [Data and accounts structure and initialization (18 min)](https://youtu.be/HZRjwrVBWp4)

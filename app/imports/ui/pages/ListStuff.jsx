@@ -10,7 +10,7 @@ import LoadingSpinner from '../components/LoadingSpinner';
 const ListStuff = () => {
   // useTracker connects Meteor data to React components. https://guide.meteor.com/react.html#using-withTracker
   const { ready, stuffs } = useTracker(() => {
-    // Note that this subscription will get cleaned up
+    // Notes that this subscription will get cleaned up
     // when your component is unmounted or deps change.
     // Get access to Stuff documents.
     const subscription = Meteor.subscribe(Stuffs.userPublicationName);
