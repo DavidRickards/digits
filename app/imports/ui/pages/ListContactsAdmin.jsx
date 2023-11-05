@@ -10,7 +10,7 @@ import ContactAdmin from '../components/ContactAdmin';
 const ListContactsAdmin = () => {
   // useTracker connects Meteor data to React components. https://guide.meteor.com/react.html#using-withTracker
   const { ready, contacts } = useTracker(() => {
-    // Note that this subscription will get cleaned up
+    // Notes that this subscription will get cleaned up
     // when your component is unmounted or deps change.
     // Get access to contact documents.
     const subscription = Meteor.subscribe(Contacts.adminPublicationName);
