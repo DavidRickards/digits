@@ -6,7 +6,7 @@ import LoadingSpinner from '../components/LoadingSpinner';
 import { Contacts } from '../../api/contact/Contacts';
 import ContactAdmin from '../components/ContactAdmin';
 
-/* Renders a table containing all of the Stuff documents. Use <StuffItem> to render each row. */
+/* Renders a table containing all of the Contact documents. Use <ContactItem> to render each row. */
 const ListContactsAdmin = () => {
   // useTracker connects Meteor data to React components. https://guide.meteor.com/react.html#using-withTracker
   const { ready, contacts } = useTracker(() => {
